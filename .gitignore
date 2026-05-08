@@ -1,0 +1,57 @@
+# ── Python ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# ── Jupyter ──────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb~
+
+# ── Dataset & model binaries (trop lourds pour Git) ─────────────────────
+data/*.csv
+data/*.tsv
+data/*.parquet
+data/*.zip
+data/*.gz
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.bin
+# Garder le catalog léger si besoin — décommenter pour l'inclure
+# !models/books_catalog.csv
+
+# ── Next.js / Node ───────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+frontend/dist/
+*.tsbuildinfo
+.npm
+.yarn/
+
+# ── Environment ──────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── OS ───────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Editors ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
